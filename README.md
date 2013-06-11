@@ -1,4 +1,0 @@
-Toy-Factory
-===========
-
-Test Javascript 
