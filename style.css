@@ -1,0 +1,123 @@
+
+
+html, .buttons{
+
+
+  font-weight: 400;
+
+
+	font-size: 14px;
+	line-height:1.4em;
+	color:black;
+}
+
+a, a:visited, a:hover, a:link{
+	color:white;
+	text-decoration: none;
+
+}
+
+
+ul{
+	list-style:none;
+}
+
+div.container{
+
+}
+
+div.body{
+
+}
+
+div.header{
+
+}
+
+h1{
+	font-family:"Arvo";
+	font-weight:700;
+	color:white;
+	font-size: 25px;
+}
+
+
+
+
+nav ul ul{
+	display: none;
+}
+
+	nav ul li:hover >ul {
+		display:block;
+	}
+
+
+.homebutton{
+	font-family: "Lato"; 
+	font-size:14px;
+	font-weight: 300;
+	text-align:center;
+	text-decoration:none;
+	color:#BF1F19;
+
+	position:relative;
+	top:50px;
+	display:block; 
+	width:100px;
+	height:100px;
+	border-radius:50px;
+
+
+	line-height:1.4em;	
+	background:#BF1F19;
+
+}
+
+	.homebutton:hover{
+
+		text-decoration:none;
+		background:#232ACC
+	}
+
+
+.buttongrid {
+
+	max-width: 900px;
+	position:absolute;
+	left:100px;
+	top:200px;
+
+
+}
+
+
+
+.subbutton{
+	font-family: "Lato"; 
+	font-size:14px;
+	font-weight: 300;
+	text-align:center;
+	text-decoration:none;
+	margin:20px 20px 20px 20px;
+
+	display:inline-table;
+
+	width:100px;
+	height:100px;
+	min-width: 100px;
+	border-radius:50px;
+
+
+	color:#BF1F19;
+	line-height:1.4em;	
+	background:#BF1F19;
+	float: none;
+
+}
+
+	.subbutton:hover{
+
+		text-decoration:none;
+		background:#232ACC
+	}
